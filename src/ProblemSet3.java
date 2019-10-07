@@ -31,8 +31,8 @@ public class ProblemSet3 {
         //ps.sign();          // executes Exercise 1
         //ps.parity();        // executes Exercise 2
         //ps.ordered();       // executes Exercise 3
-        ps.gpa();           // executes Exercise 4
-        //ps.grade();         // executes Exercise 5
+        //ps.gpa();           // executes Exercise 4
+        ps.grade();         // executes Exercise 5
         //ps.cards();         // executes Exercise 6
         //ps.leapYear();      // executes Exercise 7
         //ps.state();         // executes Exercise 8
@@ -87,7 +87,6 @@ public class ProblemSet3 {
      */
 
     public void ordered() {
-
         System.out.println("Enter three integers: \n");
         System.out.print("Enter an integer: ");
         long thirdInteger = in.nextLong();
@@ -154,6 +153,32 @@ public class ProblemSet3 {
      */
 
     public void grade() {
+
+        System.out.print("Enter a grade: ");
+        int grade = in.nextInt();
+        if (grade >= 90 && grade <= 100) {
+
+        } else if (grade >= 80 && grade <= 89) {
+
+        } else if (grade >= 70 && grade <=79) {
+
+        } else if (grade >= 60 && grade <=69) {
+
+        } else if (grade >= 0 && grade <= 59) {
+
+        } else if () {
+
+        } else if () {
+
+        } else if () {
+
+        } else if () {
+
+        } else if () {
+
+        } else if () {
+
+        }
 
     }
 
