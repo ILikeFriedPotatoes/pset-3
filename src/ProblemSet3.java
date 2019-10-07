@@ -102,11 +102,11 @@ public class ProblemSet3 {
         } else if(fifthInteger == fourthInteger && fourthInteger == thirdInteger) {
             System.out.println("\nSame.");
         } else if(fifthInteger <= fourthInteger && fourthInteger <= thirdInteger) {
-            System.out.println("\nDecreasing");
+            System.out.println("\nDecreasing.");
         } else if(fifthInteger < fourthInteger && fourthInteger < thirdInteger) {
-            System.out.println("\nStrictly Decreasing");
+            System.out.println("\nStrictly Decreasing.");
         } else {
-            System.out.println("\nUnordered");
+            System.out.println("\nUnordered.");
         }
 
     }
@@ -118,7 +118,33 @@ public class ProblemSet3 {
      */
 
     public void gpa() {
+        System.out.print("Enter a letter grade: ");
         String letterGrade = in.nextLine();
+        if (letterGrade.equalsIgnoreCase("A+") || letterGrade.equalsIgnoreCase("A")) {
+            System.out.print("\nYour GPA is 4.00.\n");
+        } else if (letterGrade.equalsIgnoreCase("A-")) {
+            System.out.print("\nYour GPA is 3.66.\n");
+        } else if (letterGrade.equalsIgnoreCase("B+")) {
+            System.out.print("\nYour GPA is 3.33.\n");
+        } else if(letterGrade.equalsIgnoreCase("B")) {
+            System.out.print("\nYour GPA is 3.00.\n");
+        } else if (letterGrade.equalsIgnoreCase("B-")) {
+            System.out.print("\nYour GPA is 2.66.\n");
+        } else if (letterGrade.equalsIgnoreCase("C+")) {
+            System.out.print("\nYour GPA is 2.33.\n");
+        } else if (letterGrade.equalsIgnoreCase("C")) {
+            System.out.print("\nYour GPA is 2.00.\n");
+        } else if (letterGrade.equalsIgnoreCase("C-")) {
+            System.out.print("\nYour GPA is 1.66.\n");
+        } else if (letterGrade.equalsIgnoreCase("D+")) {
+            System.out.print("\nYour GPA is 1.33.\n");
+        } else if (letterGrade.equalsIgnoreCase("D")) {
+            System.out.print("\nYour GPA is 1.00.\n");
+        } else if (letterGrade.equalsIgnoreCase("D-")) {
+            System.out.print("\nYour GPA is 0.66.\n");
+        } else if (letterGrade.equalsIgnoreCase("F")) {
+            System.out.print("\nYour GPA is 0.00.\n");
+        }
     }
 
     /*
