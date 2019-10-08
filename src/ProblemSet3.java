@@ -155,29 +155,23 @@ public class ProblemSet3 {
     public void grade() {
 
         System.out.print("Enter a grade: ");
-        int grade = in.nextInt();
+        double grade = in.nextDouble();
         if (grade >= 90 && grade <= 100) {
-
+            System.out.print("\nYou received an A. ");
         } else if (grade >= 80 && grade <= 89) {
-
+            System.out.print("\nYou received a B.");
         } else if (grade >= 70 && grade <=79) {
-
+            System.out.print("\nYou received a C.");
         } else if (grade >= 60 && grade <=69) {
-
+            System.out.print("\nYou received a D.");
         } else if (grade >= 0 && grade <= 59) {
-
-        } else if () {
-
-        } else if () {
-
-        } else if () {
-
-        } else if () {
-
-        } else if () {
-
-        } else if () {
-
+            System.out.print("\nYou received a F.");
+        } else if (grade > 100) {
+            System.out.print("\nGrades above 100 are invalid");
+        } else if (grade < 0) {
+            System.out.print("\nGrades below 0 are invalid.");
+        } else {
+            System.out.print("\nPlease enter a valid grade.");
         }
 
     }
@@ -190,6 +184,13 @@ public class ProblemSet3 {
 
     public void cards() {
 
+        System.out.print("Enter a card: ");
+        String cardSuit = in.nextLine();
+
+    }
+
+    public void cardRank() {
+        
     }
 
     /*
