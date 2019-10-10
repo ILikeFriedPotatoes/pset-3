@@ -32,8 +32,8 @@ public class ProblemSet3 {
         //ps.parity();        // executes Exercise 2
         //ps.ordered();       // executes Exercise 3
         //ps.gpa();           // executes Exercise 4
-        ps.grade();         // executes Exercise 5
-        //ps.cards();         // executes Exercise 6
+        //ps.grade();         // executes Exercise 5
+        ps.cards();         // executes Exercise 6
         //ps.leapYear();      // executes Exercise 7
         //ps.state();         // executes Exercise 8
         //ps.months();        // executes Exercise 9
@@ -183,7 +183,63 @@ public class ProblemSet3 {
      */
 
     public void cards() {
-
+        System.out.print("Enter a card: ");
+        String card = in.next();
+        switch (card.substring(0, 1)) {
+            case "C":
+                System.out.printf("\n %s", "clubs");
+                break;
+            case "D":
+                System.out.printf("\n %s", "diamonds");
+                break;
+            case "H":
+                System.out.printf("\n %s", "hearts");
+                break;
+            case "S":
+                System.out.printf("\n %s", "spades");
+                break;
+        }
+        switch (card.substring(1, 2)) {
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+            case "":
+                System.out.printf("\n %s", );
+                break;
+        }
     }
 
     /*
