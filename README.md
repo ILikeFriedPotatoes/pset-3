@@ -48,7 +48,7 @@ There are three possible outputs.
 * `Negative.`
 * `Zero.`
 
-Your code must work for all integers in the range [-2<sup>31</sup> - 1, 2<sup>31</sup>].
+Your code must work for all integers in the range [-2<sup>31</sup>, 2<sup>31</sup> - 1].
 
 ![Exercise 1 Output](https://github.com/ap-java-ucvts/pset-3-skeleton/blob/master/images/pset-3-exercise-1.png)
 
@@ -63,7 +63,7 @@ There are two possible outputs.
 * `Even.`
 * `Odd.`
 
-Remember, 0 is an even number. Your code must work for all integers in the range [-2<sup>31</sup> - 1, 2<sup>31</sup>].
+Remember, 0 is an even number. Your code must work for all integers in the range [-2<sup>31</sup>, 2<sup>31</sup> - 1].
 
 ![Exercise 2 Output](https://github.com/ap-java-ucvts/pset-3-skeleton/blob/master/images/pset-3-exercise-2.png)
 
@@ -82,7 +82,7 @@ There are five possible outputs.
 * `Strictly decreasing.`, where each integer is less than the previous.
 * `Unordered.`, where none of the above applies.
 
-Your code must work for all integers in the range [-2<sup>31</sup> - 1, 2<sup>31</sup>].
+Your code must work for all integers in the range [-2<sup>31</sup>1, 2<sup>31</sup> - 1].
 
 ![Exercise 3 Output](https://github.com/ap-java-ucvts/pset-3-skeleton/blob/master/images/pset-3-exercise-3.png)
 
@@ -144,7 +144,7 @@ Your code must support fractional grades, and your output must be grammatically 
 
 Prompt the user to enter a playing card. What card was entered?
 
-There are four possible suites.
+There are four possible suits.
 * `Clubs`
 * `Diamonds`
 * `Hearts`
@@ -187,7 +187,7 @@ There are two possible outputs.
 * `X is a leap year.`
 * `X is not a leap year.`
 
-Your code must support years in the range [0, 2<sup>31</sup>].
+Your code must support years in the range [0, 2<sup>31</sup> - 1].
 
 ![Exercise 7 Output](https://github.com/ap-java-ucvts/pset-3-skeleton/blob/master/images/pset-3-exercise-7.png)
 

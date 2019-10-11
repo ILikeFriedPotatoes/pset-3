@@ -32,8 +32,13 @@ public class ProblemSet3 {
         //ps.parity();        // executes Exercise 2
         //ps.ordered();       // executes Exercise 3
         //ps.gpa();           // executes Exercise 4
+<<<<<<< HEAD
         ps.grade();         // executes Exercise 5
         //ps.cards();         // executes Exercise 6
+=======
+        //ps.grade();         // executes Exercise 5
+        ps.cards();         // executes Exercise 6
+>>>>>>> 387ef04bbb211525fbda129fc75c147fd944d522
         //ps.leapYear();      // executes Exercise 7
         //ps.state();         // executes Exercise 8
         //ps.months();        // executes Exercise 9
@@ -186,11 +191,11 @@ public class ProblemSet3 {
 
         System.out.print("Enter a card: ");
         String cardSuit = in.nextLine();
-
+           
     }
 
     public void cardRank() {
-        
+
     }
 
     /*
