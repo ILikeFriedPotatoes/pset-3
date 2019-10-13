@@ -35,8 +35,8 @@ public class ProblemSet3 {
         //ps.grade();         // executes Exercise 5
         //ps.cards();         // executes Exercise 6
         //ps.leapYear();      // executes Exercise 7
-        ps.state();         // executes Exercise 8
-        //ps.months();        // executes Exercise 9
+        //ps.state();         // executes Exercise 8
+        ps.months();        // executes Exercise 9
         //ps.salary();        // executes Exercise 10
 
         in.close();
@@ -345,7 +345,177 @@ public class ProblemSet3 {
      */
 
     public void months() {
-
+        System.out.print("Enter a month: ");
+        String month = in.nextLine();
+        System.out.println("");
+        month = month.toLowerCase();
+        switch (month) {
+            case "january":
+                System.out.print("31 days.");
+                break;
+            case "jan":
+                System.out.print("31 days.");
+                break;
+            case "jan.":
+                System.out.print("31 days.");
+                break;
+            case "janu":
+                System.out.print("31 days.");
+                break;
+            case "janu.":
+                System.out.print("31 days.");
+                break;
+            case "february":
+                System.out.print("28 or 29 days.");
+                break;
+            case "feb":
+                System.out.print("28 or 29 days.");
+                break;
+            case "feb.":
+                System.out.print("28 or 29 days.");
+                break;
+            case "febr":
+                System.out.print("28 or 29 days.");
+                break;
+            case "febr.":
+                System.out.print("28 or 29 days.");
+                break;
+            case "march":
+                System.out.print("31 days");
+                break;
+            case "mar":
+                System.out.print("31 days");
+                break;
+            case "mar.":
+                System.out.print("31 days");
+                break;
+            case "marc":
+                System.out.print("31 days");
+                break;
+            case "marc.":
+                System.out.print("31 days");
+                break;
+            case "may":
+                System.out.print("31 days.");
+                break;
+            case "may.":
+                System.out.print("31 days.");
+                break;
+            case "april":
+                System.out.print("30 days.");
+                break;
+            case "apr":
+                System.out.print("30 days.");
+                break;
+            case "apr.":
+                System.out.print("30 days.");
+                break;
+            case "apri":
+                System.out.print("30 days.");
+                break;
+            case "apri.":
+                System.out.print("30 days.");
+                break;
+            case "june":
+                System.out.print("31 days.");
+                break;
+            case "jun":
+                System.out.print("31 days.");
+                break;
+            case "jun.":
+                System.out.print("31 days.");
+                break;
+            case "june.":
+                System.out.print("31 days.");
+                break;
+            case "july":
+                System.out.print("31 days.");
+                break;
+            case "jul":
+                System.out.print("31 days.");
+                break;
+            case "jul.":
+                System.out.print("31 days.");
+                break;
+            case "july.":
+                System.out.print("31 days.");
+                break;
+            case "august":
+                System.out.print("31 days.");
+                break;
+            case "aug":
+                System.out.print("31 days.");
+                break;
+            case "aug.":
+                System.out.print("31 days.");
+                break;
+            case "augu":
+                System.out.print("31 days.");
+                break;
+            case "augu.":
+                System.out.print("31 days.");
+                break;
+            case "september":
+                System.out.print("30 days.");
+                break;
+            case "sep":
+                System.out.print("30 days.");
+                break;
+            case "sep.":
+                System.out.print("30 days.");
+                break;
+            case "sept":
+                System.out.print("30 days.");
+                break;
+            case "sept.":
+                System.out.print("30 days.");
+                break;
+            case "october":
+                System.out.print("31 days.");
+                break;
+            case "oct":
+                System.out.print("31 days.");
+                break;
+            case "oct.":
+                System.out.print("31 days.");
+                break;
+            case "octo":
+                System.out.print("31 days.");
+                break;
+            case "octo.":
+                System.out.print("31 days.");
+                break;
+            case "november":
+                System.out.print("30 days.");
+                break;
+            case "nov":
+                System.out.print("30 days.");
+                break;
+            case "nov.":
+                System.out.print("30 days.");
+                break;
+            case "nove":
+                System.out.print("30 days.");
+                break;
+            case "nove.":
+                System.out.print("30 days.");
+                break;
+            case "december":
+                System.out.print("31 days.");
+                break;
+            case "dec":
+                System.out.print("31 days.");
+                break;
+            case "dec.":
+                System.out.print("31 days.");
+                break;
+            case "dece":
+                System.out.print("31 days.");
+                break;
+            case "dece.":
+                System.out.print("31 days.");
+                break;
+        }
     }
 
     /*
