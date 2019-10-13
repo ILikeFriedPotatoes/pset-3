@@ -304,7 +304,38 @@ public class ProblemSet3 {
         double temperature = in.nextDouble();
         System.out.print("Enter a scale: ");
         char scale = in.next().charAt(0);
-        
+        scale = Character.toLowerCase(scale);
+        String state = "This is a bug.";
+        if (scale == 'f') {
+            state = determineStateFahrenheit(temperature);
+        } else if (scale == 'c') {
+            state = determineStateCelsius(temperature);
+        } else {
+            System.out.print("That's not a valid scale.");
+        }
+        System.out.print(state);
+    }
+
+    public String determineStateFahrenheit(double temperature) {
+        if(temperature >= 212) {
+            return "Gas.";
+        } else if (temperature > 32 && temperature < 212) {
+            return "Liquid";
+        } else if (temperature <= 32) {
+            return "Solid";
+        }
+        return "This is a bug";
+    }
+
+    public String determineStateCelsius(double temperature) {
+        if(temperature >= 100) {
+            return "Gas.";
+        } else if (temperature > 0 && temperature < 100) {
+            return "Liquid";
+        } else if (temperature <= 0) {
+            return "Solid";
+        }
+        return "This is a bug";
     }
 
     /*
